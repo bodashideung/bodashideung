@@ -307,7 +307,8 @@ footer .link-icon-media__footer path {
   .grid-three-l .artwork7 {
     grid-area: 1/4/2/5;
   }
-  .grid-three-l .artwork7 .artwork__desc h3, .grid-three-l .artwork7 .artwork__desc p {
+  .grid-three-l .artwork7 .artwork__desc h3,
+.grid-three-l .artwork7 .artwork__desc p {
     color: #fff;
   }
   .grid-three-l .artwork7::after {
