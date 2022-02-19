@@ -72,16 +72,12 @@ $(window).scroll(function () {
 
   //artwork tittle
 
-  if (wScroll > $('.content-title').offset().top - 480) {
-    $('.content-title').addClass('pop-up-title');
-  }
-
   if (wScroll > $('.content-title').offset().top - 400) {
     $('.content-title h2, .content-title p').css({
       transform: 'translateX(0)',
     });
   }
-  if (wScroll < $('.content-title').offset().top - 400) {
+  if (wScroll < $('.content-title').offset().top - 500) {
     $('.content-title h2, .content-title p').css({
       transform: 'translateX(-500px)',
     });

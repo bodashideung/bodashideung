@@ -227,6 +227,7 @@ section {
   padding-bottom: 1rem;
   padding-inline: 2rem;
   letter-spacing: 0.2rem;
+  transform: translateX(-500px);
   transition: 0.8s ease-in;
 }
 .content-title p {
@@ -235,11 +236,8 @@ section {
   color: var(--secondary-clr);
   line-height: 1.2rem;
   padding-inline: 2rem;
+  transform: translateX(-500px);
   transition: 0.8s ease-in 0.1s;
-}
-
-.pop-up-title {
-  opacity: 1;
 }
 
 .artworks {
