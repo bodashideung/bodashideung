@@ -23,10 +23,12 @@ html{
 }
 
 .cta-to-top{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary-clr);
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
     position: fixed;
     z-index: 9;
     bottom: .5rem;
@@ -34,6 +36,13 @@ html{
     opacity: 0;
     transition: .5s ease-in;
     cursor: pointer;
+
+    svg{
+        width: 1.2rem;
+        margin: auto;
+        transform: translateY(2px);
+        animation: ctaTop .5s ease-in-out infinite;
+      }
   }
   
   .pop-up{
@@ -273,6 +282,8 @@ footer {
         height: 3rem;
         right: 1.5rem;
         bottom: 1.5rem;
+
+        
     }
 
     span{
@@ -281,7 +292,7 @@ footer {
         font-weight: 400;
         margin: 2rem auto 1rem;
         display: block;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         // border-bottom: 1px solid var(--primary-clr);
     }
 
@@ -421,7 +432,7 @@ footer {
 
         .artwork4{
             grid-area: 3/3/4/5;
-            
+
         }
 
         .artwork5{
@@ -481,6 +492,17 @@ footer {
 
 
 // key animation
+
+
+@keyframes ctaTop {
+    from {
+      transform: translateY(4px);
+    }
+  
+    to {
+      transform: translateY(1px);
+    }
+  }
 
 @keyframes down-arrow{
     from{

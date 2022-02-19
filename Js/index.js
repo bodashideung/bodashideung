@@ -57,8 +57,21 @@ $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
   
   $('.hero').css({
-    'transform' : 'translate(0, '+ -wScroll/8 +'%)'
+    'transform' : 'translate(0, '+ -wScroll/45 +'%)'
   });
+
+  $('.hero-title').css({
+    'transform' : 'translate(0, '+ wScroll/15 +'%)'
+  });
+
+  $('.hero-img').css({
+    'transform' : 'translate(0, '+ -wScroll/50 +'%)'
+  });
+
+
+
+
+
 
   //scroll to top
 

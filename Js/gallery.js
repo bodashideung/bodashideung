@@ -45,7 +45,7 @@ if (wScroll > $('.artwork1').offset().top -380){
 
   }
 
-  if (wScroll > $('.artwork2').offset().top-20){
+  if (wScroll > $('.artwork2').offset().top-50){
     $('.artwork1').css({
       'transform' : 'translateY(-30rem)'
     });
@@ -67,7 +67,7 @@ if (wScroll < $('.artwork2').offset().top - 490){
     });
     $('.artwork2').removeClass('pop-up');
   }
-if (wScroll > $('.artwork3').offset().top - 500){
+if (wScroll > $('.artwork3').offset().top - 400){
     $('.artwork2').css({
       'transform' : 'translateX(-70rem)'
     });
