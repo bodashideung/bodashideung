@@ -163,7 +163,7 @@ header {
 .gallery {
   width: 100%;
   display: grid;
-  padding-inline: 2rem;
+  // padding-inline: 2rem;
   gap: 1rem;
   row-gap: 3rem;
   margin-bottom: 3rem;
@@ -172,6 +172,7 @@ header {
 .artwork {
   transition: 0.8s ease-in-out;
   opacity: 0;
+  padding: 0 2rem;
 }
 
 .pop-up {
@@ -358,13 +359,6 @@ footer {
 
     .artwork8 {
       grid-area: 1/2/3/4;
-      // .artwork__desc{
-
-      //     h3, p{ color: var(--accent-clr);
-      //      color: var(--accent-clr);
-      //    }
-
-      // }
     }
 
     .artwork9 {

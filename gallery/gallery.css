@@ -154,7 +154,6 @@ header nav ul li a {
 .gallery {
   width: 100%;
   display: grid;
-  padding-inline: 2rem;
   gap: 1rem;
   row-gap: 3rem;
   margin-bottom: 3rem;
@@ -163,6 +162,7 @@ header nav ul li a {
 .artwork {
   transition: 0.8s ease-in-out;
   opacity: 0;
+  padding: 0 2rem;
 }
 
 .pop-up {
