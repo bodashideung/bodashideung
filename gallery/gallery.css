@@ -211,6 +211,7 @@ footer .footer__decs {
 footer .link-icon-media__footer {
   display: flex;
   gap: 1rem;
+  margin-inline: 1rem;
   justify-content: center;
   margin-bottom: 2rem;
 }
