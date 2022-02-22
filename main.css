@@ -465,13 +465,13 @@ footer .link-icon-media__footer path {
   }
   .hero-grid-l .hero-title {
     grid-area: 1/1/2/2;
-    line-height: 4rem;
+    line-height: 4.5rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
     margin-top: 10rem;
   }
   .hero-grid-l .hero-title h1 {
-    line-height: 2.9rem;
+    line-height: 3.2rem;
   }
   .hero-grid-l .hero-title p {
     padding-top: 1rem;
