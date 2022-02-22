@@ -210,7 +210,6 @@ footer .footer__decs {
 }
 footer .link-icon-media__footer {
   display: flex;
-  gap: 1rem;
   margin-inline: 1rem;
   justify-content: center;
   margin-bottom: 2rem;
@@ -218,6 +217,7 @@ footer .link-icon-media__footer {
 footer .link-icon-media__footer .link-socmed {
   width: 1.5rem;
   transition: 0.3s;
+  margin-inline: 1rem;
 }
 footer .link-icon-media__footer .link-socmed:hover {
   transform: scale(1.3);

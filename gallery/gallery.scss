@@ -224,7 +224,7 @@ footer {
 
   .link-icon-media__footer {
     display: flex;
-    gap: 1rem;
+    // gap: 1rem;
     margin-inline: 1rem;
     justify-content: center;
     margin-bottom: 2rem;
@@ -232,6 +232,7 @@ footer {
     .link-socmed {
       width: 1.5rem;
       transition: 0.3s;
+      margin-inline: 1rem;
 
       &:hover {
         transform: scale(1.3);
