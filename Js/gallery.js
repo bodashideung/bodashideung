@@ -711,7 +711,7 @@ $(window).scroll(function () {
     $('.artwork8').removeClass('pop-up');
   }
 
-  if (wScroll > $('.artwork9').offset().top - 500) {
+  if (wScroll > $('.artwork9').offset().top - 100) {
     $('.artwork8').css({
       transform: 'translateX(-60rem)',
     });
