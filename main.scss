@@ -188,6 +188,7 @@ section {
     grid-area: 2/3/3/4;
     margin-top: -1rem;
     animation: introIcon 2s ease-in-out;
+    transition: .5s ease-in;
 
     .link-socmed {
       width: 1.5rem;
@@ -419,12 +420,15 @@ footer {
 
   /*content section*/
 
+  // .gallery{
+  //   padding-inline: 2rem;
+  // }
+
   .artworks {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0;
-    margin-bottom: 10rem;
 
     .content-title {
       flex-basis: 100%;
@@ -437,10 +441,9 @@ footer {
     .artwork {
       width: 30%;
       margin-top: -6rem;
-      margin-bottom: 4rem;
       flex: 1;
-      margin-inline: 0;
-      padding-inline: 2rem;
+      padding: 0;
+      margin-inline: 2rem;
     }
 
     .cta-gallery {
@@ -451,15 +454,19 @@ footer {
     }
   }
 
+
   footer {
-    padding-bottom: 8rem;
 
     p {
       padding-bottom: 2rem;
       margin-top: 2rem;
     }
   }
+
+ 
 }
+
+
 
 // min-width 1024px
 

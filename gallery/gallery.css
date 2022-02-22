@@ -228,6 +228,9 @@ footer .link-icon-media__footer path {
 @media only screen and (min-width: 768px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    row-gap: 2rem;
+    padding: 0 2rem;
   }
 }
 @media only screen and (min-width: 1024px) {

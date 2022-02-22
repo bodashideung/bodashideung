@@ -269,6 +269,266 @@ $(window).scroll(function () {
   }
 
 
+
+  //min-width 768px
+
+  const mediaQuerym = window.matchMedia('(min-width: 768px)');
+
+  if (mediaQuerym.matches){
+      //artwork 1
+
+  if (wScroll > $('.artwork1').offset().top - 400) {
+    $('.artwork1').css({
+      transform: 'translateX(0)',
+    });
+    $('.artwork1').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork1').offset().top - 800) {
+    $('.artwork1').css({
+      transform: 'translateX(7rem)',
+    });
+    $('.artwork1').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork1').offset().top + 200) {
+    $('.artwork1').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 2
+
+  if (wScroll > $('.artwork2').offset().top - 400) {
+    $('.artwork2').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork2').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork2').offset().top - 800) {
+    $('.artwork2').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork2').removeClass('pop-up');
+  }
+  if (wScroll > $('.artwork2').offset().top + 200) {
+    $('.artwork2').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 3
+
+  if (wScroll > $('.artwork3').offset().top - 400) {
+    $('.artwork3').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork3').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork3').offset().top - 800) {
+    $('.artwork3').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork3').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork3').offset().top +200) {
+    $('.artwork3').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 4
+
+  if (wScroll > $('.artwork4').offset().top - 400) {
+    $('.artwork4').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork4').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork4').offset().top - 800) {
+    $('.artwork4').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork4').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork4').offset().top +200) {
+    $('.artwork4').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 5
+
+  if (wScroll > $('.artwork5').offset().top - 400) {
+    $('.artwork5').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork5').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork5').offset().top - 800) {
+    $('.artwork5').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork5').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork5').offset().top  +200) {
+    $('.artwork5').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 6
+
+  if (wScroll > $('.artwork6').offset().top - 400) {
+    $('.artwork6').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork6').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork6').offset().top - 800) {
+    $('.artwork6').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork6').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork6').offset().top + 200) {
+    $('.artwork6').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 7
+
+
+  if (wScroll > $('.artwork7').offset().top - 400) {
+    $('.artwork7').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork7').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork7').offset().top - 800) {
+    $('.artwork7').css({
+      transform: 'translateY(8rem)',
+    });
+    $('.artwork7').removeClass('pop-up');
+  }
+  if (wScroll > $('.artwork7').offset().top +200) {
+    $('.artwork7').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 8
+
+  if (wScroll > $('.artwork8').offset().top - 400) {
+    $('.artwork8').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork8').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork8').offset().top - 800) {
+    $('.artwork8').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork8').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork8').offset().top + 200) {
+    $('.artwork8').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 9
+
+  if (wScroll > $('.artwork9').offset().top - 400) {
+    $('.artwork9').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork9').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork9').offset().top - 800) {
+    $('.artwork9').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork9').removeClass('pop-up');
+  }
+  if (wScroll > $('.artwork9').offset().top + 200) {
+    $('.artwork9').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 10
+
+  if (wScroll > $('.artwork10').offset().top - 400) {
+    $('.artwork10').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork10').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork10').offset().top - 800) {
+    $('.artwork10').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork10').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork10').offset().top + 200) {
+    $('.artwork10').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  //artwork 11
+
+  if (wScroll > $('.artwork11').offset().top - 400) {
+    $('.artwork11').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork11').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork11').offset().top - 800) {
+    $('.artwork11').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork11').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork11').offset().top + 200) {
+    $('.artwork11').css({
+      transform: 'translateY(--5rem)',
+    });
+  }
+
+  //artwork 12
+
+  if (wScroll > $('.artwork12').offset().top - 400) {
+    $('.artwork12').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork12').addClass('pop-up');
+  }
+  if (wScroll < $('.artwork12').offset().top - 800) {
+    $('.artwork12').css({
+      transform: 'translateY(7rem)',
+    });
+    $('.artwork12').removeClass('pop-up');
+  }
+
+  if (wScroll > $('.artwork12').offset().top + 200) {
+    $('.artwork12').css({
+      transform: 'translateY(-5rem)',
+    });
+  }
+
+  }
+
+
+
  // min-width 1024px
 
   const mediaQuery = window.matchMedia('(min-width: 1024px)');

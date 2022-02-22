@@ -183,6 +183,7 @@ section {
   margin-top: -1rem;
   -webkit-animation: introIcon 2s ease-in-out;
           animation: introIcon 2s ease-in-out;
+  transition: 0.5s ease-in;
 }
 .hero-grid-s .link-icon-media .link-socmed {
   width: 1.5rem;
@@ -381,7 +382,6 @@ footer .link-icon-media__footer path {
     justify-content: center;
     flex-wrap: wrap;
     gap: 0;
-    margin-bottom: 10rem;
   }
   .artworks .content-title {
     flex-basis: 100%;
@@ -392,10 +392,9 @@ footer .link-icon-media__footer path {
   .artworks .artwork {
     width: 30%;
     margin-top: -6rem;
-    margin-bottom: 4rem;
     flex: 1;
-    margin-inline: 0;
-    padding-inline: 2rem;
+    padding: 0;
+    margin-inline: 2rem;
   }
   .artworks .cta-gallery {
     flex-basis: 100%;
@@ -404,9 +403,6 @@ footer .link-icon-media__footer path {
     width: 200px;
   }
 
-  footer {
-    padding-bottom: 8rem;
-  }
   footer p {
     padding-bottom: 2rem;
     margin-top: 2rem;

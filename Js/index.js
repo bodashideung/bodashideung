@@ -60,6 +60,11 @@ $(window).scroll(function () {
     transform: 'translate(0, ' + -wScroll / 50 + '%)',
   });
 
+  $('.link-icon-media').css({
+   transform: 'translate('+ wScroll+ '%, 0)',
+      });
+
+
   //scroll to top
 
   if (wScroll > $('.content-title').offset().top - 480) {
@@ -72,7 +77,7 @@ $(window).scroll(function () {
 
   //artwork tittle
 
-  if (wScroll > $('.content-title').offset().top - 400) {
+  if (wScroll > $('.content-title').offset().top - 470) {
     $('.content-title h2, .content-title p').css({
       transform: 'translateX(0)',
     });
@@ -83,9 +88,10 @@ $(window).scroll(function () {
     });
   }
 
+
   //artwork 1
 
-  if (wScroll > $('.artwork1').offset().top - 380) {
+  if (wScroll > $('.artwork1').offset().top - 350) {
     $('.artwork1').css({
       transform: 'translateY(0)',
     });
@@ -133,4 +139,72 @@ $(window).scroll(function () {
     });
     $('.artwork3').removeClass('pop-up');
   }
+
+
+  const mediaQuerym = window.matchMedia('(min-width: 768px)');
+
+  if (mediaQuerym.matches){
+    $('.link-icon-media').css({
+      transform: 'translate('+ wScroll/5+ '%,0)',
+         });
+
+    // artwork
+  
+  
+   //artwork 1
+
+   if (wScroll > $('.hero').offset().top) {
+    $('.artwork1').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork1').addClass('pop-up');
+   }
+    // if (wScroll < $('.artwork1').offset().top - 380) {
+    // $('.artwork1').css({
+    //   transform: 'translateY(7rem)',
+    // });
+    // $('.artwork1').removeClass('pop-up');
+    // }
+
+    // if (wScroll > $('.artwork2').offset().top - 320) {
+    //   $('.artwork1').css({
+    //     transform: 'translateY(-15rem)',
+    //   });
+    // }
+
+    //artwork 2
+
+    if (wScroll > $('.hero').offset().top) {
+    $('.artwork2').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork2').addClass('pop-up');
+    }
+    // if (wScroll < $('.artwork2').offset().top - 490) {
+    // $('.artwork2').css({
+    //   transform: 'translateY(7rem)',
+    // });
+    // $('.artwork2').removeClass('pop-up');
+    // }
+
+    //artwork 3
+
+    if (wScroll > $('.hero').offset().top) {
+    $('.artwork3').css({
+      transform: 'translateY(0)',
+    });
+    $('.artwork3').addClass('pop-up');
+    }
+  }
+
+  const mediaQuery = window.matchMedia('(min-width: 1024px)');
+
+  if (mediaQuery.matches){
+    $('.link-icon-media').css({
+      transform: 'translate('+ -wScroll/5+ '%,0)',
+         });
+
+  }
+
+
 });
