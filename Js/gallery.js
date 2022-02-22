@@ -477,7 +477,7 @@ $(window).scroll(function () {
     $('.artwork10').removeClass('pop-up');
   }
 
-  if (wScroll > $('.artwork10').offset().top + 200) {
+  if (wScroll > $('.artwork10').offset().top + 320) {
     $('.artwork10').css({
       transform: 'translateY(-5rem)',
     });
@@ -498,9 +498,9 @@ $(window).scroll(function () {
     $('.artwork11').removeClass('pop-up');
   }
 
-  if (wScroll > $('.artwork11').offset().top + 200) {
+  if (wScroll > $('.artwork11').offset().top + 350) {
     $('.artwork11').css({
-      transform: 'translateY(--5rem)',
+      transform: 'translateY(-5rem)',
     });
   }
 
@@ -579,7 +579,7 @@ $(window).scroll(function () {
     });
     $('.artwork2').removeClass('pop-up');
   }
-  if (wScroll > $('.artwork3').offset().top - 400) {
+  if (wScroll > $('.artwork3').offset().top - 80) {
     $('.artwork2').css({
       transform: 'translateX(-70rem)',
     });
@@ -600,7 +600,7 @@ $(window).scroll(function () {
     $('.artwork3').removeClass('pop-up');
   }
 
-  if (wScroll > $('.artwork4').offset().top - 500) {
+  if (wScroll > $('.artwork4').offset().top - 300) {
     $('.artwork3').css({
       transform: 'translateY(-25rem)',
     });
@@ -616,12 +616,12 @@ $(window).scroll(function () {
   }
   if (wScroll < $('.artwork4').offset().top - 490) {
     $('.artwork4').css({
-      transform: 'translateY(7.5rem)',
+      transform: 'translateY(7rem)',
     });
     $('.artwork4').removeClass('pop-up');
   }
 
-  if (wScroll > $('.artwork6').offset().top - 500) {
+  if (wScroll > $('.artwork6').offset().top - 80) {
     $('.artwork4').css({
       transform: 'translateX(70rem)',
     });
@@ -663,7 +663,7 @@ $(window).scroll(function () {
     $('.artwork6').removeClass('pop-up');
   }
 
-  if (wScroll > $('.artwork7').offset().top - 490) {
+  if (wScroll > $('.artwork7').offset().top - 100) {
     $('.artwork6').css({
       transform: 'translateX(60rem)',
     });
@@ -731,7 +731,7 @@ $(window).scroll(function () {
     });
     $('.artwork9').removeClass('pop-up');
   }
-  if (wScroll > $('.artwork10').offset().top - 500) {
+  if (wScroll > $('.artwork10').offset().top - 80) {
     $('.artwork9').css({
       transform: 'translateX(30rem)',
     });

@@ -91,7 +91,7 @@ $(window).scroll(function () {
 
   //artwork 1
 
-  if (wScroll > $('.artwork1').offset().top - 350) {
+  if (wScroll > $('.artwork1').offset().top - 450) {
     $('.artwork1').css({
       transform: 'translateY(0)',
     });
@@ -104,7 +104,7 @@ $(window).scroll(function () {
     $('.artwork1').removeClass('pop-up');
   }
 
-  if (wScroll > $('.artwork2').offset().top - 320) {
+  if (wScroll > $('.artwork2').offset().top - 300) {
     $('.artwork1').css({
       transform: 'translateY(-15rem)',
     });
