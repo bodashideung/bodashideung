@@ -131,7 +131,7 @@ main{
     background-color: var(--primary-clr);
 
     h1{
-        padding-inline: 2rem;
+        padding: 0 2rem;
         color: var(--accent-clr);
         font-family: var(--ff-title);
         align-self: center;
@@ -145,7 +145,6 @@ footer {
   text-align: center;
   align-self: flex-end;
   width: 100%;
-  padding-bottom: 1rem;
 
 
   p {

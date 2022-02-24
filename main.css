@@ -397,7 +397,7 @@ footer .link-icon-media__footer path {
     margin-top: -6rem;
     flex: 1;
     padding: 0;
-    margin-inline: 2rem;
+    margin: 1rem 2rem;
   }
   .artworks .cta-gallery {
     flex-basis: 100%;
