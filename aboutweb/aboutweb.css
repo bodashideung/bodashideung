@@ -20,8 +20,21 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  max-height: 100vh;
+.wrapper {
+  height: 100vh;
+  background-color: var(--primary-clr);
+}
+
+.container {
+  background-color: var(--primary-clr);
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  margin-bottom: 3rem;
 }
 
 a {
@@ -35,6 +48,7 @@ header {
   justify-content: space-between;
   position: relative;
   z-index: 10;
+  background-color: var(--accent-clr);
 }
 header .logo {
   background-color: var(--accent-clr);
@@ -102,7 +116,6 @@ header nav ul li a {
 
 main {
   width: 100%;
-  min-height: 100vh;
   background-color: var(--primary-clr);
 }
 main h1 {
@@ -125,6 +138,10 @@ footer {
   color: var(--accent-clr);
   text-align: center;
   padding: 2rem;
+  margin-top: 3rem;
+  align-self: flex-end;
+  justify-content: center;
+  width: 100%;
 }
 footer p {
   font-family: var(--ff-text);
@@ -155,6 +172,11 @@ footer .link-icon-media__footer path {
   .wrapper {
     max-width: 1366px;
     margin: 0 auto;
+    height: 100vh;
+  }
+
+  .content {
+    width: 50%;
   }
 
   header .logo {

@@ -21,6 +21,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.wrapper{
+  height: 100vh;
+  background-color: var(--primary-clr);
+  position: relative;
+  // overflow: hidden;
+}
 
 a {
   text-decoration: none;
@@ -33,6 +39,7 @@ header {
   justify-content: space-between;
   position: relative;
   z-index: 10;
+  background-color: var(--accent-clr);
 
   .logo {
     background-color: var(--accent-clr);
@@ -104,12 +111,22 @@ header {
   }
 }
 
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
 main{
     width: 100%;
-    height: 100vh;
+    height: 80%;
     display: flex;
+    align-self: center;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     background-color: var(--primary-clr);
 
@@ -117,6 +134,7 @@ main{
         padding-inline: 2rem;
         color: var(--accent-clr);
         font-family: var(--ff-title);
+        align-self: center;
     }
 }
 
@@ -125,7 +143,10 @@ footer {
   background-color: var(--primary-clr);
   color: var(--accent-clr);
   text-align: center;
-  padding: 2rem;
+  align-self: flex-end;
+  width: 100%;
+  padding-bottom: 1rem;
+
 
   p {
     font-family: var(--ff-text);
@@ -141,12 +162,11 @@ footer {
     display: flex;
     // gap: 1rem;
     justify-content: center ;
-    margin: 0 1rem 2rem;
+    margin: 0 1rem 1rem;
 
     .link-socmed {
       width: 1.5rem;
       margin-inline: 1rem;
-
       transition: 0.3s;
 
       &:hover {
@@ -208,6 +228,8 @@ footer {
         width: 2rem;
       }
     }
+
+
 }  
 
 @keyframes introHeader {
