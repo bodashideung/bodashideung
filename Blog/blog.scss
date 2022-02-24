@@ -114,9 +114,9 @@ main{
     background-color: var(--primary-clr);
 
     h1{
-        text-align: center;
         padding-inline: 2rem;
         color: var(--accent-clr);
+        font-family: var(--ff-title);
     }
 }
 
